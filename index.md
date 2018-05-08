@@ -61,7 +61,7 @@ dib display: inline-block;
 -->
 <div class="header">
     <div class="logo">
-    <img src="picture/bdlogo.png" height="200px" alt="不存在">
+    <img src="D:/webstrom/picture/bdlogo.png" height="200px" alt="不存在">
     </div>
 
     <div class="nav"><a href="#">新闻</a>
