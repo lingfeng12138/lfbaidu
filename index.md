@@ -1,8 +1,114 @@
 ## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度一百下，你还是不知道</title>
+    <style>
+        body{
+            font-family: "Microsoft YaHei UI Light";
+            font-size:18px;
+            color: #666;
+        }
+    .header{
+        height: 300px;
+    }
+        .content{
+            height: 200px;
+        }
+        .footer{
+            height: 200px;
+        }
+        .logo{
+            height: 200px;
+        }
+        input[type=text]{
+            width: 400px;
+            height: 30px;
+        }
+        input[type=submit]{
+            width: 100px;
+            height: 30px;
+        }
+        .search{
+            height: 60px;
+        }
+        .bk{
+            height: 60px;
+        }
+        .ft{
+            height: 30px;
+        }
+        .tg{
+            height: 30px;
+        }
+        div{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!--
+1.display(转换css元素的显示模式)的取值
+block 块级
+inline 行内
+inline-block 行内块级
 
-You can use the [editor on GitHub](https://github.com/lingfeng12138/lfbaidu/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+2.快捷键
+di display: inline;
+db display: block;
+dib display: inline-block;
+-->
+<div class="header">
+    <div class="logo">
+    <img src="picture/bdlogo.png" height="200px" alt="不存在">
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <div class="nav"><a href="#">新闻</a>
+    <strong>网 页</strong>
+    <a href="#">贴 吧</a>
+    <a href="#">知 道</a>
+    <a href="#">音 乐</a>
+    <a href="#">图 片</a>
+    <a href="#">视 频</a>
+    <a href="#">地 图</a>
+    </div>
+</div>
+<div class="content">
+    <div class="search">
+        <input type="text">
+    <input type="submit" value="百度一百下">
+    </div>
+
+    <div class="bk">
+    <a href="#">百 科</a>
+    <a href="#">文 库</a>
+    <a href="#">hao123</a>
+    |
+    <a href="#">更 多>></a>
+    </div>
+
+
+</div>
+<div class="footer">
+    <div class="ft">
+    <a href="#">把百度设为主页</a>
+    <a href="#">安装百度安全卫士</a>
+    </div>
+    
+    <div class="tg">
+    <a href="#">加入百度推广</a>
+    |
+    <a href="#">搜索风云榜</a>
+    |
+    <a href="#">About Baidu</a>
+    |
+    <a href="#">关于百度</a>
+    </div>
+    <div>&copy;2018 LFBaidu 使用百度前必读 意见反馈 京ICP证030173号</div>
+</div>
+</body>
+</html>
 
 ### Markdown
 
